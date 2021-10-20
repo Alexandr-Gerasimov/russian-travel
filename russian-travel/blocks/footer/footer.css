@@ -7,3 +7,11 @@
     margin-right: 48px;
     padding-bottom: 24px;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        margin-left: 16px;
+        margin-top: 64px;
+        }
+   }
