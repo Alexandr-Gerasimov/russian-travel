@@ -4,4 +4,4 @@
 
 В проекте использованы html, css, flex, grid и медиазапросы.
 
-Ссылка на GitHub Pages: https://alexandr-gerasimov.github.io/russian-travel-1/
+Ссылка на GitHub Pages: https://alexandr-gerasimov.github.io/russian-travel/
