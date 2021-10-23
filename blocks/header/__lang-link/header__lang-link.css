@@ -3,16 +3,11 @@
     font-size: 24px;
     font-weight: 400;
     color: #fff;
-    padding-right: 18px;
     text-decoration: none;
 } 
 
 .header__lang-link:hover {
     opacity: 0.8;
-}
-
-.header__lang-link:last-child {
-    padding-right: 0;
 }
 
 @media screen and (max-width: 767px) {

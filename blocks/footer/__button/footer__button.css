@@ -1,0 +1,7 @@
+.footer__button {
+    padding-right: 18px;
+}
+
+.footer__button:last-child {
+    padding-right: 0;
+}

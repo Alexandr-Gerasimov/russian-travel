@@ -4,16 +4,11 @@
     font-weight: normal;
     color: #fff;
     text-decoration: none;
-    padding-right: 18px;
     margin: 0;
 }
 
 .footer__link:hover {
     opacity: 0.8;
-}
-
-.footer__link:last-child {
-    padding-right: 0;
 }
 
 @media screen and (max-width: 767px) {
