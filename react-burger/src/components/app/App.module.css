@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  background-color: #000;
+  min-width: 1280px;
+  min-height: 100vh;
+  display: flex;
+  font-family: "Jet Brains Mono", Arial, sans-serif;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}

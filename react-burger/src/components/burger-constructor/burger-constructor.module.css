@@ -1,0 +1,160 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-top: 40px;
+  margin-left: 40px;
+  align-items: center;
+}
+
+.construct {
+  width: 584px;
+  height: 696px;
+  padding-left: 16px;
+}
+
+.info {
+  width: 568px;
+  height: 64px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.total {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 36px;
+  margin-right: 9px;
+}
+
+.list {
+  max-height: 464px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-items: center;
+  overflow: auto;
+}
+
+.list::-webkit-scrollbar {
+  width: 12px; /* ширина scrollbar */
+}
+
+.list::-webkit-scrollbar-track {
+  background: #2f2f37; /* цвет дорожки */
+}
+
+.list::-webkit-scrollbar-thumb {
+  background-color: #8585ad; /* цвет плашки */
+}
+
+.position {
+  width: 568px;
+  height: 80px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.positionTop {
+  width: 568px;
+  height: 80px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.positionTop:last-child {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.ingredient {
+  display: flex;
+  width: 536px;
+  height: 80px;
+  background: #1c1c21;
+  border-radius: 40px;
+  align-items: center;
+}
+
+.topBun {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background: #1C1C21;
+  border-radius: 88px 88px 40px 40px;
+}
+
+.bottomBun {
+  display: block;
+  height: 80px;
+  background: #1C1C21;
+  border-radius: 40px 40px 88px 88px; 
+}
+
+.filling {
+  margin-left: 33px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 536px;
+  background: #1C1C21;
+  border-radius: 40px;
+}
+
+.emptyTop {
+  margin-top: 20px;
+  margin-left: 33px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 536px;
+  background: #1C1C21;
+  border-radius: 88px 88px 40px 40px;
+}
+
+.emptyBottom {
+  margin-left: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 536px;
+  background: #1C1C21;
+  border-radius: 40px 40px 88px 88px; 
+}
+
+.unactiveButton {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+font-size: 16px;
+line-height: 1.5;
+font-weight: normal;
+
+width: 215px;
+height: 64px;
+
+background: #2f2f37;
+border-radius: 64px;
+}

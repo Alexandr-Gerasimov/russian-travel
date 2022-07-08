@@ -1,0 +1,81 @@
+.header {
+  background-color: #1c1c21;
+  width: calc(100vw - 80px);
+  max-width: 1920px;
+  height: 88px;
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.logo {
+  height: 42px;
+  width: 290px;
+  background-position: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding: 20px;
+  border: none;
+  background: none;
+  color: #8585ad;
+}
+
+.button:active {
+  color: #f2f2f3;
+}
+
+.text {
+  text-decoration: none;
+  margin-left: 9px;
+  font-family: "Jet Brains Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8585AD
+}
+
+.activeText {
+  text-decoration: none;
+  margin-left: 9px;
+  font-family: "Jet Brains Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff
+}
+
+.text:active {
+  color: #fff
+}
+
+.private {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 56px;
+  border: none;
+  background: none;
+  color: #8585ad;
+}
+
+.private:active {
+  color: #f2f2f3;
+}
+
+.button:last-child {
+  margin-right: 0;
+}

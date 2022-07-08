@@ -1,0 +1,7 @@
+.header__lang-button {
+    padding-right: 18px;
+}
+
+.header__lang-button:last-child {
+    padding-right: 0;
+}
